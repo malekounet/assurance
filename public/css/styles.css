@@ -1,0 +1,204 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('../images/seamless-pattern-with-symmetric-geometric-lines-repeating-geometric-tiles-vector.jpg');
+}
+.menu{
+    width: 20%;
+    height: 910px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #915A5A;  
+    /* background-image: url('../images/seamless-pattern-with-symmetric-geometric-lines-repeating-geometric-tiles-vector.jpg'); */
+}
+ul{
+    list-style:none;
+    width: 99%;
+    height: 100%;
+    position: relative;
+    top: 60px; 
+}
+li{
+    width: 84%;
+    padding: 22px;
+    margin-top:6px;
+    background-color: #9F6262;
+    margin-left: auto;
+    margin-right: auto;
+}
+#deconnecter{
+    position:relative;
+    bottom:-300px;
+}
+.contenu{
+    color: black;
+    width: 100%;
+}
+.crud{
+    display: flex;
+}
+.crud div{
+    padding: 17px;
+    width: 150px;
+    border: black 1px solid;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    border-radius: 5px;
+    background-color: #5A9191;
+    font-size: 1.2em;
+    color: white;
+}
+
+   
+
+/* .chercherClient{
+    position: relative;
+    right: -1122px;
+    top: 17px;
+} */
+h1{
+    color: #9F6262;
+    margin-left: 53px;
+    margin-top: 33px;
+    text-decoration: underline;
+}
+table, thead, tr, td{
+    border: solid black 1px;
+    padding: 5px;
+    margin: 0%;
+    border-collapse: collapse;
+    
+}
+td{
+    width: 133px;
+}
+table{
+    margin-left: 50px;
+}
+thead{
+    background-color: #5A9191;
+}
+
+
+form{
+    width: 260px;
+    margin-left: 175px;
+    margin-top: 70px;
+    position: relative;
+   
+    
+}
+form input{
+    height: 29px;
+    border-radius: 5px;
+}
+.button button{
+    width: 160px;
+    height: 33px;
+    position: relative;
+    top:22px;
+}
+.button{
+    width: 340px;
+    position: absolute;
+    bottom: -76px;
+    left: 236px;
+
+}
+
+label{
+width: 100px;
+display: inline-block
+}
+#chercherCin, #chercherMatricule{
+    width: 200px;
+    padding: 13px;
+    position: relative;
+    right: -1117px;
+    top: 18px;
+}
+
+
+
+.formAjoutClient{
+
+    width: 769px;
+    height: 656px;
+    background-color: #7E7E7E;
+    
+    position: absolute;
+    top: 33px;
+    border-radius: 5px;
+    right:571px;
+}
+.formAjoutClient table, .formAjoutClient tr, .formAjoutClient td{
+    border:transparent !important;
+}
+
+.formModifierClient{
+
+    width: 769px;
+    height: 680px;
+    background-color: #7E7E7E;
+    
+    position: absolute;
+    top: 33px;
+    border-radius: 5px;
+    right:571px;
+}
+.formModifierClient table, .formModifierClient tr, .formModifierClient td{
+    border:transparent !important;
+}
+#policeChercherClient{
+    margin-bottom: 33px;
+}
+
+.formSupprimerClient{
+
+    width: 769px;
+    height: 680px;
+    background-color: #7E7E7E;
+    
+    position: absolute;
+    top: 33px;
+    border-radius: 5px;
+    right:571px;
+}
+.formSupprimerClient table, .formSupprimerClient tr, .formSupprimerClient td{
+    border:transparent !important;
+}
+#policeSupprimerClient{
+    margin-bottom: 33px;
+}
+
+#containerBtn{
+    padding: 33px;
+    padding-left: 355px;
+}
+#containerBtn input{
+    padding: 5px;
+}
+.divSupprimerClient input{
+    padding: 6px;
+    
+    
+}
+.divSupprimerClient{
+    position: relative;
+    padding-left: 96px;
+    padding-top: 111px;
+}
